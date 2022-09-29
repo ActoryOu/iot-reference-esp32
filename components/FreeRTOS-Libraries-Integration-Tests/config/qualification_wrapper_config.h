@@ -35,7 +35,7 @@
     #include "test_param_config.h"
 
     /* Common config */
-    #define CONFIG_GRI_THING_NAME                       ( IOT_THING_NAME )
+    #define CONFIG_GRI_THING_NAME                       ( MQTT_TEST_CLIENT_IDENTIFIER )
     #define CONFIG_GRI_MQTT_ENDPOINT                    ( MQTT_SERVER_ENDPOINT )
     #define CONFIG_GRI_MQTT_PORT                        ( MQTT_SERVER_PORT )
 
